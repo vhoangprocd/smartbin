@@ -1,0 +1,42 @@
+# Thư viện bổ sung cho phát triển (tùy chọn)
+# Cài: pip install -r requirements-dev.txt
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+pylint>=2.16.0
+isort>=5.11.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Jupyter Notebook (nếu muốn dùng notebook)
+jupyter>=1.0.0
+jupyterlab>=3.0.0
+ipython>=8.0.0
+
+# Web API (Flask + FastAPI)
+flask>=2.3.0
+fastapi>=0.95.0
+uvicorn>=0.21.0
+
+# Database (nếu lưu kết quả)
+sqlalchemy>=2.0.0
+pymongo>=4.0.0
+
+# Monitoring & Logging
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Performance
+numba>=0.56.0
+numpy>=1.23.0
+
+# Image processing (thêm)
+opencv-python>=4.5.0
+scikit-image>=0.19.0
